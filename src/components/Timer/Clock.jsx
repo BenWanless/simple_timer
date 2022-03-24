@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Timer from "react-timer-wrapper";
 import Timecode from "react-timecode";
 import "./Clock.scss"
+
 export default class Clock extends Component {
   state = {
     time: 0,
